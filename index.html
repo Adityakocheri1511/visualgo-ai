@@ -2,27 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    
-    <!-- ✅ Favicon (All browsers) -->
-    <link rel="icon" type="image/png" href="/visualgo-a-logo.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="/visualgo-a-logo.png" sizes="192x192" />
-    <link rel="icon" type="image/png" href="/visualgo-a-logo.png" sizes="512x512" />
 
-    <!-- ✅ Apple / iOS support -->
-    <link rel="apple-touch-icon" href="/visualgo-a-logo.png" />
+    <!-- 🌐 Primary Favicons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/visualgo-a-logo.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/visualgo-a-logo.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/visualgo-a-logo.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/visualgo-a-logo.png" />
+    <link rel="shortcut icon" href="/visualgo-a-logo.png" type="image/png" />
 
-    <!-- ✅ Theme color for Chrome mobile tabs -->
+    <!-- 🍏 Apple Touch Icon (iOS / Safari) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/visualgo-a-logo.png" />
+
+    <!-- 🧭 Progressive Web App Manifest (optional) -->
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- 🎨 Theme + SEO Meta -->
     <meta name="theme-color" content="#10b981" />
+    <meta
+      name="description"
+      content="VisuAlgo.AI – An AI-powered Data Structure & Algorithm Visualizer to learn Sorting, Graphs, Linked Lists, and Trees interactively."
+    />
+    <meta name="keywords" content="VisuAlgo, Algorithm Visualizer, DSA, AI Visualizer, Sorting, Graph, Linked List, Tree, Visualization" />
+    <meta name="author" content="Aditya Kocheri" />
 
-    <!-- ✅ Basic settings -->
+    <!-- 📱 Responsive Design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="VisuAlgo.AI – AI-powered DSA Visualizer for Sorting, Graphs, Linked Lists, and Trees" />
 
-    <title>VisuAlgo.AI-An DSA Visualizer Platform</title>
+    <!-- 🚀 Title -->
+    <title>VisuAlgo.AI – AI-Powered DSA Visualizer</title>
   </head>
 
   <body>
     <div id="root"></div>
+
+    <!-- ⚡ Main React App -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
